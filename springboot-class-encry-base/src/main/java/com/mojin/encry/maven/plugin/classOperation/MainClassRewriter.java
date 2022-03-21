@@ -32,7 +32,7 @@ public class MainClassRewriter {
 		
 		// 复制类加载器&反射启动类
 		List<Pair<String, byte[]>> copyClassStarter = 
-				ClassBuilder.copyClassStarter(mainClassPackage);
+				ClassBuilder.copyClassStarter();
 		String startClass = DecryClassStarter.class.getName();
 		File decryStartClassDir = 
 				new File(

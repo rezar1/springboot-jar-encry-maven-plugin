@@ -43,8 +43,7 @@ public class ClassBuilder implements Opcodes {
 		allStarterClassByteDatas.add(loadClassByteCodes(InnerURLStreamHandler.class));
 	}
 	
-	public static List<Pair<String, byte[]>> copyClassStarter(
-			final String basePackage) {
+	public static List<Pair<String, byte[]>> copyClassStarter() {
 		return Collections.unmodifiableList(allStarterClassByteDatas);
 	}
 	
