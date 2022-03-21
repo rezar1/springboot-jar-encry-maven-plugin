@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.mojin.kernel</groupId>
+	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>springboot-encry-all</artifactId>
+	<packaging>pom</packaging>
+
+	<name>springboot-encry-all</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>springboot-class-encry-maven-plugin</module>
+		<module>springboot-class-encry-base</module>
+	</modules>
+
+	<!--发布到私服配置 -->
+	<!-- <distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Internal Release</name>
+			<url>http://39.96.117.179:8180/nexus-2.14.5-02/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>http://39.96.117.179:8180/nexus-2.14.5-02/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement> -->
+
+	<distributionManagement>
+		<repository>
+			<id>Rezar-mvn-repo</id>
+			<url>file:${basedir}/repo</url>
+		</repository>
+	</distributionManagement>
+
+</project>

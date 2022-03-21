@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.mojin.kernel</groupId>
+  <artifactId>springboot-class-encry-base</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220316094549</lastUpdated>
+  </versioning>
+</metadata>

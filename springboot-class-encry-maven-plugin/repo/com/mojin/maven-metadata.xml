@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>springboot-class-encry-maven-plugin</name>
+      <prefix>springboot-class-encry</prefix>
+      <artifactId>springboot-class-encry-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
