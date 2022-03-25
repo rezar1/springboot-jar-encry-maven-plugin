@@ -85,7 +85,7 @@ pom.xml 添加仓库
   
 项目目录下执行打包命令，即可生成加密后的jar和decry.psd文件;
 
-# 注意！！！！
+# 注意！！！
   为避免内存嗅探，建议在jvm启动时添加[-XX:+DisableAttachMechanism]参数，禁止classdump这类操作(ps:同时会禁止掉jstack,jmap等此类工具，权衡使用)
 
 
